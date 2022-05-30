@@ -54,12 +54,7 @@ body {
 }
 
 .herro {
-position: absolute;
-width: 1600px;
-left: 0px;
-top: 80px;
 color: var(--hero-background-color);
-
 }
 /* ------------ШАПКА-------------- */
 
@@ -111,13 +106,10 @@ color: var(--hero-background-color);
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  /* align-items: center; */
-  /* text-align: center; */
-  /* letter-spacing: 0.06em; */
   background-color: var(--accent-color);
   color: var(--white-text-color);
   cursor: pointer;
@@ -159,7 +151,6 @@ color: var(--hero-background-color);
 }
 
 .team-profession {
-  font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
@@ -174,17 +165,18 @@ color: var(--hero-background-color);
   color: var(--white-text-color);
 }
 
-.footer-contact-link.address {
+.footer-contact-link {
   color: var(--white-text-color);
+  text-decoration: none;
 }
 
 /* ---------------------------------------------- */
 /* --------------------ПОРТФОЛИО----------------- */
 /* ---------------------------------------------- */
 .portfolio-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.63;
   letter-spacing: 0.03em;
   background-color: var(--team-background-color);
@@ -206,7 +198,6 @@ color: var(--hero-background-color);
 }
 
 .portfolio-list-text {
-  font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
 }
