@@ -168,7 +168,7 @@ body {
   color: var(--white-text-color);
 }
 
-.footer-contact-link {
+.footer-contact-link.address {
   color: var(--white-text-color);
 }
 
